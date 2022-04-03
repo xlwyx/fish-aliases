@@ -1,0 +1,25 @@
+################################################################################
+##                                  Alias for Fish
+################################################################################
+
+
+# Alias for ls
+alias la='ls -a'
+alias ll='ls -li'
+alias lh='ls -lhA'
+
+# Other Alias
+alias gp='grep -i'
+alias his='history clear'
+alias ac='acpi -b'
+alias cat='bat -n'
+
+
+printf "60" | doas tee /sys/class/backlight/amdgpu_bl0/brightness
+
+nerdfetch
+
+figlet ' It  be  must  underground  with  VoidLinux  ! '
+
+xrdb load ~/.Xresources
+
